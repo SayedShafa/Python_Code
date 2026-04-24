@@ -9,7 +9,7 @@ A fun and interactive game where the player competes against the computer(which 
 - Water vs Gun → Water drowns gun → Water wins
 - Same choices → Draw
 
-**Project 2:Food Order Management System**
+**Project 2: Food Order Management System**
 
 **Features**
 - Display a menu with item names and prices
@@ -27,4 +27,4 @@ A fun and interactive game where the player competes against the computer(which 
 - Loops & Conditional Statements
 
 **Purpose**
-This project was created to practice Python fundamentals such as loops, conditions, data structures, and user input handling by building a real-life inspired food ordering system.
+- This project was created to practice Python fundamentals such as loops, conditions, data structures, and user input handling by building a real-life inspired food ordering system.
