@@ -33,7 +33,6 @@ A fun and interactive game where the player competes against the computer(which 
 
 **Project 3 : RAG Chatbot on Bangladesh National Dietary Guidelines**
 A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions  about **food, nutrition, and health** based on the official "National Dietary Guidelines for Bangladesh" PDF. Built with **LangChain**, **FAISS**, **Ollama (Local LLM)**. Fully offline, no API keys required.
-This is a **smart chatbot** that answers your questions about **food, nutrition, and health** based on the official "National Dietary Guidelines for Bangladesh" PDF.  
 Just ask a question in plain English or Bengali — and it will give you an answer instantly!
 
 **Features**
