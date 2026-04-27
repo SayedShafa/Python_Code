@@ -28,3 +28,58 @@ A fun and interactive game where the player competes against the computer(which 
 
 **Purpose**
 - This project was created to practice Python fundamentals such as loops, conditions, data structures, and user input handling by building a real-life inspired food ordering system.
+
+**Project 3:RAG Chatbot on Bangladesh National Dietary Guidelines**
+A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions from the **"National Dietary Guidelines for Bangladesh"** PDF. Built with **LangChain**, **FAISS**, **Ollama (Local LLM)**. Fully offline, no API keys required.
+
+##  Features
+
+- **PDF Text Extraction** – Loads and processes PDF documents
+- **Chunking & Embedding** – Splits text into chunks and converts to vector embeddings  
+- **FAISS Vector Database** – Stores embeddings for fast similarity search  
+- **Local LLM (Ollama)** – Uses `llama3.2:1b` (free, offline, no API key)  
+- **RAG Pipeline** – Retrieves relevant chunks and generates accurate answers  
+- **Interactive Chat** – Ask questions in real-time, exit with `exit`  
+- **Source Tracking** – Shows which PDF sections were used to generate the answer
+## Tech Stack
+- LangChain
+- FAISS
+- HuggingFace Embeddings (all-MiniLM-L6-v2)
+- Ollama (llama3.2:1b)
+- Streamlit
+
+## Installation
+
+
+# Clone repo
+git clone https://github.com/your-username/bjit-rag-project.git
+cd bjit-rag-project
+
+# Create environment
+conda create -n rag_env python=3.10
+conda activate rag_env
+
+# Install dependencies
+pip install langchain langchain-community langchain-huggingface langchain-ollama langchain-classic langchain-text-splitters faiss-cpu pypdf pdfplumber streamlit sentence-transformers
+
+# Install Ollama
+# Download from https://ollama.com/download
+
+# Pull model
+ollama pull llama3.2:1b
+
+# Run Ollama server (separate terminal)
+ollama server
+
+**Sample Questions**
+1.What are the dietary guidelines for diabetes patients?
+2.How much water should an adult drink daily?
+3.What foods are recommended for pregnant women?
+4.What foods are recommended for children aged 2-5 years?
+5.How much fish and meat is recommended per day?
+
+**Output Example**
+-Your Question:  How much water should an adult drink daily according to the guidelines?
+🌸🌸🌸 Answer: According to the guidelines, an adult should drink at least 10 to 12 glasses of fluid per day. However, it's not explicitly stated how many ounces or milliliters this equates to.
+
+
