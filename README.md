@@ -62,11 +62,11 @@ Just ask a question in plain English or Bengali — and it will give you an answ
 - RetrievalQA (langchain-classic)
 
 **Sample Questions**
-1.What are the dietary guidelines for diabetes patients?
-2.How much water should an adult drink daily?
-3.What foods are recommended for pregnant women?
-4.What foods are recommended for children aged 2-5 years?
-5.How much fish and meat is recommended per day?
+- 1.What are the dietary guidelines for diabetes patients?
+- 2.How much water should an adult drink daily?
+- 3.What foods are recommended for pregnant women?
+- 4.What foods are recommended for children aged 2-5 years?
+- 5.How much fish and meat is recommended per day?
 
 **Output Example**
 -Your Question:  How much water should an adult drink daily according to the guidelines?
