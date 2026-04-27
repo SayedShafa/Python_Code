@@ -32,7 +32,9 @@ A fun and interactive game where the player competes against the computer(which 
 ---
 
 **Project 3 : RAG Chatbot on Bangladesh National Dietary Guidelines**
-A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions from the **"National Dietary Guidelines for Bangladesh"** PDF. Built with **LangChain**, **FAISS**, **Ollama (Local LLM)**. Fully offline, no API keys required.
+A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions  about **food, nutrition, and health** based on the official "National Dietary Guidelines for Bangladesh" PDF. Built with **LangChain**, **FAISS**, **Ollama (Local LLM)**. Fully offline, no API keys required.
+This is a **smart chatbot** that answers your questions about **food, nutrition, and health** based on the official "National Dietary Guidelines for Bangladesh" PDF.  
+Just ask a question in plain English or Bengali — and it will give you an answer instantly!
 
 **Features**
 - **PDF Text Extraction** – Loads and processes PDF documents
@@ -43,7 +45,7 @@ A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions 
 - **Interactive Chat** – Ask questions in real-time, exit with `exit`  
 - **Source Tracking** – Shows which PDF sections were used to generate the answer
 
-  **Tech Stack**
+**Tech Stack**
 - Python 3.10
 - LangChain
 - FAISS (Vector Database)
@@ -71,4 +73,10 @@ A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions 
 -Your Question:  How much water should an adult drink daily according to the guidelines?
 🌸🌸🌸 Answer: According to the guidelines, an adult should drink at least 10 to 12 glasses of fluid per day. However, it's not explicitly stated how many ounces or milliliters this equates to.
 
+**Purpose:**
+- Ask anything about food, diabetes, pregnancy diet, or nutrition
+- Get answers directly from the government PDF
+- Works fully offline (no internet needed)
+- Free — no OpenAI or API costs
+- Private — your data stays on your computer
 
