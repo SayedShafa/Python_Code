@@ -69,8 +69,8 @@ Just ask a question in plain English or Bengali — and it will give you an answ
 - 5.How much fish and meat is recommended per day?
 
 **Output Example**
--Your Question:  How much water should an adult drink daily according to the guidelines?
--🌸🌸🌸 Answer: According to the guidelines, an adult should drink at least 10 to 12 glasses of fluid per day. However, it's not explicitly stated how many ounces or milliliters this equates to.
+- Your Question:  How much water should an adult drink daily according to the guidelines?
+- 🌸🌸🌸 Answer: According to the guidelines, an adult should drink at least 10 to 12 glasses of fluid per day. However, it's not explicitly stated how many ounces or milliliters this equates to.
 
 **Purpose:**
 - Ask anything about food, diabetes, pregnancy diet, or nutrition
