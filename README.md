@@ -29,11 +29,10 @@ A fun and interactive game where the player competes against the computer(which 
 **Purpose**
 - This project was created to practice Python fundamentals such as loops, conditions, data structures, and user input handling by building a real-life inspired food ordering system.
 
-**Project 3:RAG Chatbot on Bangladesh National Dietary Guidelines**
+**Project 3: RAG Chatbot on Bangladesh National Dietary Guidelines**
 A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions from the **"National Dietary Guidelines for Bangladesh"** PDF. Built with **LangChain**, **FAISS**, **Ollama (Local LLM)**. Fully offline, no API keys required.
 
-##  Features
-
+**Features**
 - **PDF Text Extraction** – Loads and processes PDF documents
 - **Chunking & Embedding** – Splits text into chunks and converts to vector embeddings  
 - **FAISS Vector Database** – Stores embeddings for fast similarity search  
@@ -41,31 +40,25 @@ A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions 
 - **RAG Pipeline** – Retrieves relevant chunks and generates accurate answers  
 - **Interactive Chat** – Ask questions in real-time, exit with `exit`  
 - **Source Tracking** – Shows which PDF sections were used to generate the answer
-## Tech Stack
+  
+  **Tech Stack**
 - LangChain
 - FAISS
 - HuggingFace Embeddings (all-MiniLM-L6-v2)
 - Ollama (llama3.2:1b)
-- Streamlit
-
-## Installation
 
 
-# Clone repo
-git clone https://github.com/your-username/bjit-rag-project.git
-cd bjit-rag-project
+**Installation**
 
-# Create environment
+**Create environment**
 conda create -n rag_env python=3.10
 conda activate rag_env
 
-# Install dependencies
+**Install dependencies**
 pip install langchain langchain-community langchain-huggingface langchain-ollama langchain-classic langchain-text-splitters faiss-cpu pypdf pdfplumber streamlit sentence-transformers
 
-# Install Ollama
-# Download from https://ollama.com/download
-
-# Pull model
+**Install Ollama**
+**Pull model**
 ollama pull llama3.2:1b
 
 # Run Ollama server (separate terminal)
