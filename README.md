@@ -8,7 +8,7 @@ A fun and interactive game where the player competes against the computer(which 
 - Gun vs Snake → Gun kills snake → Gun wins
 - Water vs Gun → Water drowns gun → Water wins
 - Same choices → Draw
-
+---
 **Project 2: Food Order Management System**
 
 **Features**
@@ -29,7 +29,9 @@ A fun and interactive game where the player competes against the computer(which 
 **Purpose**
 - This project was created to practice Python fundamentals such as loops, conditions, data structures, and user input handling by building a real-life inspired food ordering system.
 
-**Project 3: RAG Chatbot on Bangladesh National Dietary Guidelines**
+---
+
+**Project 3 : RAG Chatbot on Bangladesh National Dietary Guidelines**
 A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions from the **"National Dietary Guidelines for Bangladesh"** PDF. Built with **LangChain**, **FAISS**, **Ollama (Local LLM)**. Fully offline, no API keys required.
 
 **Features**
@@ -40,29 +42,23 @@ A **Retrieval-Augmented Generation (RAG)** based chatbot that answers questions 
 - **RAG Pipeline** – Retrieves relevant chunks and generates accurate answers  
 - **Interactive Chat** – Ask questions in real-time, exit with `exit`  
 - **Source Tracking** – Shows which PDF sections were used to generate the answer
-  
+
   **Tech Stack**
+- Python 3.10
 - LangChain
-- FAISS
+- FAISS (Vector Database)
 - HuggingFace Embeddings (all-MiniLM-L6-v2)
 - Ollama (llama3.2:1b)
+- PyPDFLoader / pypdf
 
+**Libraries Used**
 
-**Installation**
-
-**Create environment**
-conda create -n rag_env python=3.10
-conda activate rag_env
-
-**Install dependencies**
-pip install langchain langchain-community langchain-huggingface langchain-ollama langchain-classic langchain-text-splitters faiss-cpu pypdf pdfplumber streamlit sentence-transformers
-
-**Install Ollama**
-**Pull model**
-ollama pull llama3.2:1b
-
-# Run Ollama server (separate terminal)
-ollama server
+- PyPDFLoader (langchain-community)
+- RecursiveCharacterTextSplitter (langchain-text-splitters)
+- HuggingFaceEmbeddings (langchain-huggingface)
+- FAISS (langchain-community)
+- ChatOllama (langchain-ollama)
+- RetrievalQA (langchain-classic)
 
 **Sample Questions**
 1.What are the dietary guidelines for diabetes patients?
