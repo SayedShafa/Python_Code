@@ -33,15 +33,22 @@ All processing happens offline – no API calls, no trackers, no sudden costs. T
 2. **Install Python packages** (run in project folder):
 
    pip install langchain-community langchain-core langchain-classic langchain-ollama faiss-cpu streamlit
-3. **Run the app:**
+   
+4. **Run the app:**
 
-   bash
+   ```bash
    streamlit run vuktaapp.py
    
 - First time: click "Create Database" in sidebar (1-2 min to build FAISS index)
--Then ask any question (English or Bangla)
+- Then ask any question (English )
 
-Sample Question:
+### Sample Question:
+1.What should I do if the seller does not give a cash memo?
+2.What is the warranty period for a mobile phone?
+3.What should a consumer do if expired food is sold?
+4.What should I do if a shopkeeper charges more than the listed price?
+5.What should I do if I receive a fake or damaged product?
+
 
 ### Project Files
 - vukta_odhikar.py – backend (create DB, QA chain)
