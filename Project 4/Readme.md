@@ -37,7 +37,7 @@ All processing happens offline – no API calls, no trackers, no sudden costs. T
 4. **Run the app:**
 
    ```bash
-   streamlit run vuktaapp.py
+   streamlit run mainapp.py
    
 - First time: click "Create Database" in sidebar (1-2 min to build FAISS index)
 - Then ask any question (English )
