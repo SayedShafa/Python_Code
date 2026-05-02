@@ -41,18 +41,18 @@ streamlit run main.py
 - Do you offer international shipping?
   
 **Tech Stack**
-Component       -------	Technology
-LLM & Embeddings-------	Ollama (llama3.2:1b)
-Vector Database	-----FAISS
-RAG Framework	  -----LangChain (community, classic, Ollama support)
-Frontend	      -----Streamlit
-Data Source	CSV -----(mainecommerce.csv, 40+ Q&A pairs)
+- Component        -----  Technology
+- LLM & Embeddings -----  Ollama (llama3.2:1b)
+- Vector Database	 ----   FAISS
+- RAG Framework	 ----   LangChain (community, classic, Ollama support)
+- Frontend	       ----   Streamlit
+- Data Source	CSV -----   (mainecommerce.csv, 40+ Q&A pairs)
   
   
 **Project Structure**
 
-├── main.py                  # Streamlit frontend
-├── ecommerce.py             # Backend logic (vector DB, QA chain)
-├── mainecommerce.csv        # FAQ dataset (question, answer)
-└── Capture2.PNG             # Screenshot of the interface
+- main.py                  # Streamlit frontend
+- ecommerce.py             # Backend logic (vector DB, QA chain)
+- mainecommerce.csv        # FAQ dataset (question, answer)
+- Capture2.PNG             # Screenshot of the interface
 
