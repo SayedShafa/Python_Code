@@ -1,1 +1,1 @@
-# 🇧🇩 Consumer Rights Assistant: An Offline RAG Chatbot for Bangladesh
+# BD Consumer Rights Assistant: An Offline RAG Chatbot for Bangladesh
