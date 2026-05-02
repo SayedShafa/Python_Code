@@ -1,6 +1,10 @@
 # BD Consumer Rights Assistant: An Offline RAG Chatbot for Bangladesh
 A local, offline RAG chatbot that answers consumer rights queries based on Bangladeshi laws. It uses Ollama (LLaMA 3.2) for language understanding, FAISS for fast similarity search, and a simple Streamlit interface. No internet, no API keys, no data leaves your computer – just reliable answers from a curated Q&A dataset.
 
+
+<img width="2250" height="1221" alt="image" src="https://github.com/user-attachments/assets/27d3ec1f-45c0-4311-83b4-ef941b8f0892" />
+
+
 ## Project Overview
 
 Ever needed to quickly check a consumer right but found legal texts overwhelming? This project solves that by combining a local LLM with a focused FAQ dataset. 
