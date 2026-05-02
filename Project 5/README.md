@@ -5,10 +5,6 @@ We are building a Q&A system for an e‑commerce store called **Kenakata** (fict
 Kenakata sells a wide range of products online and has thousands of customers who frequently ask questions about orders, payments, shipping, returns, and warranties. This system provides a Streamlit‑based user interface where customers can ask questions and get instant, accurate answers.
 
 ---
-
-<img width="1577" height="639" alt="image" src="https://github.com/user-attachments/assets/4117b56c-371d-4d59-b1ca-84edae99beef" />
-
-
 ##  Quick Setup (3 steps)
 
 1. **Install Ollama** and pull the model  
@@ -24,6 +20,8 @@ Kenakata sells a wide range of products online and has thousands of customers wh
 
    ```bash
    streamlit run main.py
+   
+4.**The web app will open in your browser.**
 
 - First launch: click “Create Knowledgebase” – this builds the FAISS index (takes 1‑2 minutes).
 - Then type any question (e.g., “How long does shipping take?”).
@@ -50,4 +48,6 @@ Kenakata sells a wide range of products online and has thousands of customers wh
 - ecommerce.py      - Backend logic (vector DB, QA chain)
 - mainecommerce.csv - FAQ dataset (question, answer)
 - Capture2.PNG      -  Screenshot of the interface
+
+  <img width="1577" height="639" alt="image" src="https://github.com/user-attachments/assets/4117b56c-371d-4d59-b1ca-84edae99beef" />
 
