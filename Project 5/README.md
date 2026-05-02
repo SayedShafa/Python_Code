@@ -7,6 +7,8 @@ Kenakata sells a wide range of products online and has thousands of customers wh
 ---
 
 <img width="1577" height="639" alt="image" src="https://github.com/user-attachments/assets/4117b56c-371d-4d59-b1ca-84edae99beef" />
+
+---
 ##  Quick Setup (3 steps)
 
 1. **Install Ollama** and pull the model  
