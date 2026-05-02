@@ -20,3 +20,42 @@ All processing happens offline – no API calls, no trackers, no sudden costs. T
 | **RAG Framework**   | LangChain (community, classic, Ollama)       |
 | **Frontend**     | Streamlit (clean, one‑file UI)               |
 | **Data**         | CSV (question/answer pairs, 400+ entries)    |
+
+
+
+
+
+##  Quick Setup (3 steps)
+
+1. **Install Ollama** and pull the model:
+   ```bash
+   ollama pull llama3.2:1b
+2. **Install Python packages** (run in project folder):
+
+   pip install langchain-community langchain-core langchain-classic langchain-ollama faiss-cpu streamlit
+3. **Run the app:**
+
+   bash
+   streamlit run vuktaapp.py
+   
+- First time: click "Create Database" in sidebar (1-2 min to build FAISS index)
+-Then ask any question (English or Bangla)
+
+Sample Question:
+
+### Project Files
+- vukta_odhikar.py – backend (create DB, QA chain)
+- vuktaapp.py – Streamlit frontend
+- vuktaodikar.csv – Q&A dataset (400+ English entries)
+
+
+
+
+
+
+
+
+
+
+
+  
