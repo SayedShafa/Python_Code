@@ -4,11 +4,10 @@ This is an end‑to‑end LLM project  built with **Ollama + LangChain**.
 We are building a Q&A system for an e‑commerce store called **Kenakata** (fictional name).  
 Kenakata sells a wide range of products online and has thousands of customers who frequently ask questions about orders, payments, shipping, returns, and warranties. This system provides a Streamlit‑based user interface where customers can ask questions and get instant, accurate answers.
 
-
-
-
-
 ---
+
+<img width="1577" height="639" alt="image" src="https://github.com/user-attachments/assets/4117b56c-371d-4d59-b1ca-84edae99beef" />
+
 
 ##  Quick Setup (3 steps)
 
@@ -18,20 +17,16 @@ Kenakata sells a wide range of products online and has thousands of customers wh
    
 2. **Install Python dependencies**
 
- ```bash
+  ```bash
   pip install langchain-community langchain-core langchain-classic langchain-ollama faiss-cpu streamlit
 
 3. **Run the app**
 
- ```bash
+  ```bash
  streamlit run main.py
 
 - First launch: click “Create Knowledgebase” – this builds the FAISS index (takes 1‑2 minutes).
 - Then type any question (e.g., “How long does shipping take?”).
-  
-
-
-
 
 **Sample Questions**
 - How can I track my order?
@@ -51,8 +46,8 @@ Kenakata sells a wide range of products online and has thousands of customers wh
   
 **Project Structure**
 
-- main.py                  # Streamlit frontend
-- ecommerce.py             # Backend logic (vector DB, QA chain)
-- mainecommerce.csv        # FAQ dataset (question, answer)
-- Capture2.PNG             # Screenshot of the interface
+- main.py           - Streamlit frontend
+- ecommerce.py      - Backend logic (vector DB, QA chain)
+- mainecommerce.csv - FAQ dataset (question, answer)
+- Capture2.PNG      -  Screenshot of the interface
 
