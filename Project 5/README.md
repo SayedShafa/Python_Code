@@ -50,7 +50,9 @@ Data Source	CSV -----(mainecommerce.csv, 40+ Q&A pairs)
   
   
 **Project Structure**
-- main.py: The main Streamlit application script.
-- ecommerce.py: This has all the langchain code.
 
+├── main.py                  # Streamlit frontend
+├── ecommerce.py             # Backend logic (vector DB, QA chain)
+├── mainecommerce.csv        # FAQ dataset (question, answer)
+└── Capture2.PNG             # Screenshot of the interface
 
