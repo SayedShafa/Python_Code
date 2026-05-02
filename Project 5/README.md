@@ -18,13 +18,13 @@ Kenakata sells a wide range of products online and has thousands of customers wh
    
 2. **Install Python dependencies**
 
-bash
-pip install langchain-community langchain-core langchain-classic langchain-ollama faiss-cpu streamlit
+ ```bash
+  pip install langchain-community langchain-core langchain-classic langchain-ollama faiss-cpu streamlit
 
 3. **Run the app**
 
-bash
-streamlit run main.py
+ ```bash
+ streamlit run main.py
 
 - First launch: click “Create Knowledgebase” – this builds the FAISS index (takes 1‑2 minutes).
 - Then type any question (e.g., “How long does shipping take?”).
