@@ -2,7 +2,8 @@
 A local, offline RAG chatbot that answers consumer rights queries based on Bangladeshi laws. It uses Ollama (LLaMA 3.2) for language understanding, FAISS for fast similarity search, and a simple Streamlit interface. No internet, no API keys, no data leaves your computer – just reliable answers from a curated Q&A dataset.
 
 
-<img width="2250" height="1221" alt="image" src="https://github.com/user-attachments/assets/27d3ec1f-45c0-4311-83b4-ef941b8f0892" />
+<img width="2189" height="783" alt="image" src="https://github.com/user-attachments/assets/1eeb9e36-0813-4213-8070-c279397df0d1" />
+
 
 
 ## Project Overview
@@ -47,11 +48,11 @@ All processing happens offline – no API calls, no trackers, no sudden costs. T
 - Then ask any question (English )
 
 ### Sample Question:
-1.What should I do if the seller does not give a cash memo?
-2.What is the warranty period for a mobile phone?
-3.What should a consumer do if expired food is sold?
-4.What should I do if a shopkeeper charges more than the listed price?
-5.What should I do if I receive a fake or damaged product?
+- 1.What should I do if the seller does not give a cash memo?
+- 2.What is the warranty period for a mobile phone?
+- 3.What should a consumer do if expired food is sold?
+- 4.What should I do if a shopkeeper charges more than the listed price?
+- 5.What should I do if I receive a fake or damaged product?
 
 
 ### Project Files
