@@ -21,7 +21,7 @@ Resume vs Job Description Matcher is an NLP-powered tool that analyzes a candida
 
 - Clean, interactive web interface built with Streamlit.
 
-** Resume vs Job Description Matcher
+**Resume vs Job Description Matcher**
 - cv_selection_main.py   # Main Streamlit application
 - skills_list.py         # Customizable skill keywords list
 - requirements.txt       # Python dependencies
@@ -40,3 +40,43 @@ Resume vs Job Description Matcher is an NLP-powered tool that analyzes a candida
 - Run the app: streamlit run cv_selection_main.py
 
 - Open http://localhost:8501/ in your browser.
+
+### Usage
+- Upload a CV file in PDF or DOCX format.
+
+- Paste the text of a job description into the text area.
+
+- View the results:
+
+- Match Summary – Jaccard, Cosine, and Semantic similarity scores.
+
+- Skills Found in CV – list of extracted skills from the resume.
+
+- Required Skills in JD – list of skills mentioned in the job description.
+
+- Missing Skills – skills present in JD but absent in CV.
+
+### Customization
+You can easily modify the skills that the tool looks for by editing the skills_list.py file. Simply add or remove keywords from the SKILLS list.
+
+SKILLS = [
+    "python",
+    "java",
+    "machine learning",
+    "docker",
+    ...
+]
+- You can also define multiple skill lists for different domains (e.g., tech_skills.py, soft_skills.py) and import them accordingly.
+
+
+
+
+
+
+
+
+
+
+
+
+  
