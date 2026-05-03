@@ -1,8 +1,11 @@
 # Resume vs Job Description Matcher 
+---
 Resume vs Job Description Matcher is an NLP-powered tool that analyzes a candidate's CV (PDF/DOCX) and compares it with a job description to calculate a match percentage. It extracts relevant skills from both documents using keyword matching, and also provides additional similarity metrics (Cosine and Semantic) for a comprehensive evaluation. The goal is to help recruiters or job seekers quickly assess the suitability of a resume for a specific role.
 
 ---
+<img width="2204" height="1133" alt="image" src="https://github.com/user-attachments/assets/0d503dd6-3c3a-447e-817b-9c48b5d494ff" />
 
+---
 ### Features:
 
 - Upload CV in PDF or DOCX format.
@@ -52,7 +55,7 @@ Resume vs Job Description Matcher is an NLP-powered tool that analyzes a candida
 
 - Paste the text of a job description into the text area.
 
-- View the results:
+### View the results:
 
 - Match Summary – Jaccard, Cosine, and Semantic similarity scores.
 
