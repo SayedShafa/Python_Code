@@ -22,16 +22,22 @@ Resume vs Job Description Matcher is an NLP-powered tool that analyzes a candida
 - Clean, interactive web interface built with Streamlit.
 
 **Resume vs Job Description Matcher**
-- cv_selection_main.py   # Main Streamlit application
-- skills_list.py         # Customizable skill keywords list
-- requirements.txt       # Python dependencies
-- README.md              # Project documentation
-- resume.docs           #sample of a cv
-- job_destription.txt    #sample of a job description
+- cv_selection_main.py--------- Main Streamlit application
+- skills_list.py---------- Customizable skill keywords list
+- requirements.txt ----- Python dependencies
+- README.md ---------------Project documentation
+- resume.docs ------------- sample of a cv
+- job_destription.txt  --------sample of a job description
 
 
 ### Technologies Used:
-- Python, Streamlit, PyPDF2, python-docx, scikit-learn, Sentence-Transformers, pandas, regex.
+- Python
+- Streamlit (for interface)
+- PyPDF2(PDF text extraction)
+- python-docx (DOCX text extraction)
+- scikit-learn(TF-IDF, cosine similarity)
+- Sentence-Transformers
+- regex
 
 ### How to Run:
 
